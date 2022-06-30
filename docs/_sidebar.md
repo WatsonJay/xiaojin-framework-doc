@@ -1,3 +1,4 @@
 <!-- docs/_sidebar.md -->
 
-* [首页](ezio-framework/)
+* [项目介绍](README.md)
+* [代码生成器](code-generator.md)
