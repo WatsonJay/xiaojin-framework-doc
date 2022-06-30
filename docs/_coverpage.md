@@ -5,7 +5,7 @@
 > 低代码后端开发测试管理平台
 
 [GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](ezio-framework/)
+[Get Started](/README.md)
 
 <!-- 背景图片 -->
 
