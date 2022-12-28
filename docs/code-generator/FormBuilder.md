@@ -16,18 +16,33 @@ npm i @ezioframework/ezio-form-generator
 ```
 
 ## 自定义参数
-| 参数              | 描述   | 默认值  | 
-| --------------   | ----   |  ----   |
-| header           | 是否展示头部   | true  |  
-| foot             | 是否展示页脚  | true  |  
+| 参数              | 描述   | 默认值  | 可选类型 |
+| --------------   | ----   |  ----   | ----  |
+| header           | 是否展示头部   | true  | boolean |
+| foot             | 是否展示页脚  | true  |  boolean |
 | logo             | 替换标签   | null  | 
-| formName         | 表单存储名称  | FORM_1  | 
-| title            | 页面标题  | 表单设计器  | 
-| showToolbarsText | 是否展示操作栏  | true  | 
-| actionToolbars   | 操作栏展示的按键 | ['importJson','exportCode','undo',<br>'redo','run','viewJson',<br>'clean','save','close']| 
-| actionStatus     | 操作栏展示是否禁用<br>(false:不禁用,true:禁用)   | {importJson: false,exportCode: false,<br>undo: false,redo: false,run: false,<br>viewJson: false,clean: false,<br>save: false,close: false}| 
-| showDocLink      | 展示空间相关文档链接  | false  | 
+| formName         | 表单存储名称  | FORM_1  | String |
+| title            | 页面标题  | 表单设计器  | String |
+| showToolbarsText | 是否展示操作栏  | true  | boolean |
+| actionToolbars   | 操作栏展示的按键 | ['importJson','exportCode','undo',<br>'redo','run','viewJson',<br>'clean','save','close']| Array |
+| actionStatus     | 操作栏展示是否禁用(false:不禁用,true:禁用)   | {}| importJson: false,exportCode: false,undo: false,redo: false,run: false,viewJson: false,<br>clean: false,save: false,close: false |
+| showDocLink      | 展示空间相关文档链接  | false  | boolean |
 
+**eg:**
+
+*1.当actionBar需要禁用按键时,只需要将相关按键传入actionStatus中,例如{importJson: true}*
+
+| 参数 | 对应按键 | 备注 |
+| ----- | ----- | ---- |
+| importJson | 导入json | |
+| exportCode | 导出生成代码 | |
+| undo | 撤销上一步操作 |
+| redo | 取消上一次撤销 |
+| run | 预览代码 |
+| viewJson | 查看生成json |
+| clean | 清除所有组件 |
+| save | 保存json | 点击触发$emit('handleSave') |
+| close | 关闭 | 点击触发$emit('handleClose') |
 
 ## 组件扩展
 
