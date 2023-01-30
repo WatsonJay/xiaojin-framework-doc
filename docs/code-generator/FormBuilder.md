@@ -2,7 +2,7 @@
 
 ## 概述
 
-表单生成器e-form-generator借鉴[form-generator]()而来,修改适配antd-vue控件,
+表单生成器ezio-form-generator借鉴[form-generator]()而来,修改适配antd-vue控件,
 可根据拖拽布局生成vue页面布局，也可导出json直接传入生成器[ezio-form-generator]()使用
 
 ## 如何使用
@@ -44,5 +44,7 @@ npm i @ezioframework/ezio-form-generator
 | save | 保存json | 点击触发$emit('handleSave') |
 | close | 关闭 | 点击触发$emit('handleClose') |
 
-## 组件扩展
+## 组件定义
+eizo-form-generator基础上分作三类: 
++
 
