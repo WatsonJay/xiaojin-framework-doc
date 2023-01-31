@@ -44,7 +44,15 @@ npm i @ezioframework/ezio-form-generator
 | save | 保存json | 点击触发$emit('handleSave') |
 | close | 关闭 | 点击触发$emit('handleClose') |
 
-## 组件定义
-eizo-form-generator基础上分作三类: 
+## 通用表单定义
 +
 
+## 组件定义
+eizo-form-generator基础上分作三类: 基础组件,高级组件,布局型组件。组件的构建属性通过JSON存放,可以通过外部方式进行引入添加。
++ 基础配置项
+    - \_\__config___:基础配置
+      * layout: 'colFormItem',
+      * type: 'divider',
+      * tagIcon: 'efg-line',
+      * label: '分割线',
+      * document: 'https://element.eleme.cn/#/zh-CN/component/layout#row-attributes'
