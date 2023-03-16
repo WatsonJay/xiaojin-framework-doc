@@ -2,7 +2,7 @@
 
 ![logo](_media/logo.png)
 
-> 低代码后端开发测试管理平台
+> 低代码后端开发测试管理框架
 
 [GitHub](https://github.com/docsifyjs/docsify/)
 [Get Started](/README.md)
