@@ -2,13 +2,13 @@
 
 ## 概述
 
-表单生成器ezio-form-generator借鉴[form-generator]()而来,修改适配antd-vue控件,
-可根据拖拽布局生成vue页面布局，也可导出json直接传入生成器[ezio-form-generator]()使用
+表单生成器ezio-form-generator借鉴[form-generator](https://github.com/JakHuang/form-generator)而来,修改适配antd-vue控件,
+可根据拖拽布局生成vue页面布局，也可导出json直接传入生成器[ezio-form-parser]()使用
 
 ## 如何使用
 1.安装组件
 ```
-npm i @ezioframework/ezio-form-generator
+npm i @ezioframework/ezio-form-generator-v3
 ```
 2.代码中引用
 ```
