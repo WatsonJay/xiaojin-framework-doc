@@ -45,10 +45,15 @@ npm i @ezioframework/ezio-form-generator-v3
 | save       | 保存json   | 点击触发$emit('handleSave')  |
 | close      | 关闭       | 点击触发$emit('handleClose') |
 
-## 通用表单定义
+## 通用表单配置
 +
 
-## 组件定义及扩展
+## 组件配置及扩展
 eizo-form-generator上固定有三类: 基础组件,高级组件,布局型组件。每个组件的构建属性通过JSON存放,可以通过外部方式(extendComponents)进行引入添加。
-+ 
+
+### 组件定义
+- \_\_config__: 生成器相关配置项
+  - label:
+- 
+### 组件扩展
 
