@@ -16,18 +16,19 @@ npm i @ezioframework/ezio-form-generator-v3
 ```
 
 ## 自定义参数
-|        参数        |              描述              |                                            默认值                                            |                                                               可选类型                                                               |
-|:----------------:|:----------------------------:|:-----------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|
-|      header      |            是否展示头部            |                                           true                                            |                                                             boolean                                                              |
-|       foot       |            是否展示页脚            |                                           true                                            |                                                             boolean                                                              |
-|       logo       |             替换标签             |                                           null                                            | 
-|     formName     |            表单存储名称            |                                          FORM_1                                           |                                                              String                                                              |
-|      title       |             页面标题             |                                           表单设计器                                           |                                                              String                                                              |
-| showToolbarsText |           是否展示操作栏            |                                           true                                            |                                                             boolean                                                              |
-|  actionToolbars  |           操作栏展示的按键           | ['importJson','exportCode','undo',<br>'redo','run','viewJson',<br>'clean','save','close'] |                                                              Array                                                               |
-|   actionStatus   | 操作栏展示是否禁用(false:不禁用,true:禁用) |                                            {}                                             | importJson: false,exportCode: false,undo: false,redo: false,run: false,viewJson: false,<br>clean: false,save: false,close: false |
-|   showDocLink    |          展示空间相关文档链接          |                                           false                                           |                                                             boolean                                                              |
-| extendComponents |            扩展列表内容            |                                            []                                             |                                                                                                                                  |
+|        参数         |     描述     |                                            默认值                                            |  可选类型   |
+|:-----------------:|:----------:|:-----------------------------------------------------------------------------------------:|:-------:|
+|      header       |   是否展示头部   |                                           true                                            | boolean |
+|       foot        |   是否展示页脚   |                                           true                                            | boolean |
+|       logo        |    替换标签    |                                           null                                            | 
+|     formName      |   表单存储名称   |                                          FORM_1                                           | String  |
+|       title       |    页面标题    |                                           表单设计器                                           | String  |
+|       intro       |  是否开启用户指引  |                                           false                                           | boolean |
+|    showDocLink    | 是否展示控件相关文档 |                                           false                                           | boolean |
+| extendComponents  |   扩展列表内容   |                                            []                                             |         |
+| showActionBarText |  是否展示操作栏   |                                           true                                            | boolean |
+|    showActions    |  操作栏展示的按键  | ['importJson','exportCode','undo',<br>'redo','run','viewJson',<br>'clean','save','close'] |  见eg.1  |
+|  disableActions   | 操作栏需要禁用的按键 |                                            []                                             |  见eg.1  |
 
 **eg:**
 
